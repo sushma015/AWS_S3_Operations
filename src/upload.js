@@ -9,8 +9,8 @@ function UploadFile() {
   const client = new S3Client({
     region: "us-east-1",
     credentials: {
-      accessKeyId:'AKIA6HM2F4C6B7OOU3K6',//place access key
-      secretAccessKey: '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',//place secret access key
+      accessKeyId:'AKIA6HM2F4C6PSM3NZBC',//place access key
+      secretAccessKey: '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',//place secret access key
     },
   });
   const uploadFile = async () => {
