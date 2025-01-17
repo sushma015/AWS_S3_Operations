@@ -8,8 +8,8 @@ function Files() {
   const client = new S3Client({
     region: "us-east-1",
     credentials: {
-      accessKeyId: "",//place access key
-      secretAccessKey: "",//place secret access key
+      accessKeyId: 'AKIA6HM2F4C6B7OOU3K6',//place access key
+      secretAccessKey: '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',//place secret access key
     },
   });
   useEffect(() => {
@@ -46,8 +46,8 @@ function Files() {
     const s3 = new AWS.S3({
       region: "us-east-1",
       credentials: {
-        accessKeyId: "",//place access key
-        secretAccessKey: "",//place secret access key
+        accessKeyId: 'AKIA6HM2F4C6B7OOU3K6',//place access key
+        secretAccessKey: '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',//place secret access key
       },
     });
 
